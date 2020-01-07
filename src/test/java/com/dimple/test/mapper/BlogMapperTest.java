@@ -21,19 +21,19 @@ public class BlogMapperTest {
     @Autowired
     BlogMapper blogMapper;
 
-    @Test
-    public void testInsertBlog() {
-        Blog blog = new Blog();
-        blog.setContent("this is a content");
-        blog.setTitle("this is a title");
-        blogMapper.insertBlog(blog);
-    }
-
-
-    @Test
-    public void testUpdateBlogStatusByIds() {
-        Integer ids[] = {31, 32, 33, 34};
-        blogMapper.updateBlogStatusByIds(ids, "5");
-    }
+//    @Test
+//    public void testInsertBlog() {
+//        Blog blog = new Blog();
+//        blog.setContent("this is a content");
+//        blog.setTitle("this is a title");
+//        blogMapper.insertBlog(blog);
+//    }
+//
+//
+//    @Test
+//    public void testUpdateBlogStatusByIds() {
+//        Integer ids[] = {31, 32, 33, 34};
+//        blogMapper.updateBlogStatusByIds(ids, "5");
+//    }
 
 }
