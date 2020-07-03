@@ -51,7 +51,7 @@ public class SwaggerConfig {
         // 用ApiInfoBuilder进行定制
         return new ApiInfoBuilder()
                 .title("Dimple个人博客系统")
-                .description("边小丰的个人博客系统")
+                .description("杨劲的个人博客系统")
                 .contact(new Contact(systemConfig.getName(), "www.bianxiaofeng.com", "bianxiaofeng@sohu.com"))
                 .version("版本号:" + systemConfig.getVersion())
                 .build();
