@@ -246,7 +246,7 @@
                         src="http://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3"></iframe>
             </li>
             <li th:each="blog:${newestUpdateBlog}">
-                <span><i class="el-arrow-up"></i>最近：<font class="blue-text">边小丰</font><span
+                <span><i class="el-arrow-up"></i>最近：<font class="blue-text">杨劲</font><span
                         th:text="${#dates.format(blog.updateTime, 'MM-dd hh:mm')}"> 03-01 09:30</span></span>
                 <a th:href="${'/f/article/'+blog.blogId+'.html'}" th:title="${blog.title}"> 更新了<b
                         class="lable">文章</b></a>

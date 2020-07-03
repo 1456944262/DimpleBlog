@@ -262,13 +262,13 @@
                         <p th:text="${blog.summary}"></p>
                         <ul>
                             <li>
-                                <a th:title="${'边小丰'+#dates.format(blog.createTime, 'yyyy-MM-dd')+'发表'}">
+                                <a th:title="${'杨劲'+#dates.format(blog.createTime, 'yyyy-MM-dd')+'发表'}">
                                     <i class="el-time"></i>
                                     <span th:text="${#dates.format(blog.createTime, 'yyyy-MM-dd')}"></span>
                                 </a>
                             </li>
                             <li>
-                                <a href="about.html" title="作者： 边小丰"><i class="el-user"></i>边小丰</a>
+                                <a href="about.html" title="作者： 杨劲"><i class="el-user"></i>杨劲</a>
                             </li>
                             <li><a th:href="${'/f/article/'+blog.blogId+'.html'}" href="article/219.html#Comment">
                                 <i class="el-comment"></i>
